@@ -188,7 +188,7 @@ if [ $compile == 1 ]; then
 fi
 
 #ct2foam -i $mechanism -o $foam_dir -T 1000.0 -p
-ct2foam -i $mechanism -o $foam_dir -Tl 200.0 -T 1000.0 -Th 6000.0 -p    
+ct2foam -i $mechanism -o $foam_dir -Tl 200.0 -T 1000.0 -Th 6000.0 -p
 
 rewrite_species
 write_reactions_note
